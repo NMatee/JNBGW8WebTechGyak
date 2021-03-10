@@ -1,0 +1,31 @@
+<?php
+phpinfo();
+?>
+<!DOCTYPE html>
+
+<html lang="hu">
+
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>Szövegförmázás: </title>
+ </head>
+
+ <body bgcolor="#99FF99" background="kepek/hatter.jpg">
+ <h2>Háttérszín, háttérkép</h2>
+ <h3>Mi az információ?: ,</h3>
+
+ <p align="center">
+ <font style = "color:blue; font-size:18pt">Az információ olyan fontos hír, tudósítás, ismeret, amely az emberben valamilyen bizonytalanságot, ismeretlenséget szüntet meg, old fel. <br>
+ <span style="border-bottom-style: double;">Azokat az információkat, amelyekből valamilyen konkrét tényt tudunk meg <strong>adatnak</strong> is nevezzük.</span><br> Tehát, az információ értelmezett adat.</font>
+ </p>
+
+
+ <h3>Mi az információ?: ,</h3>
+ <br><br>
+ <div style="text-align:justify; width:400px">
+ <font style="color:black; font-size:14pt">
+ Az információkat jelek segítségével rögzítjük. A jelek nagyon sokfélék lehetnek. Vannak olyan egyszerű jelek, amit majdnem mindenki megért, pl:integetés búcsúzáskor. Vannak olyan jelek is amit csak az emberek egy csoportja ért meg. Ilyen jelekből állnak a titkosítások. <font size="3">(Morze, jelzőtáblák jelnyelv.)</font>.<br>
+ A jelekkel rögzített információkat csak akkor értjük, csak akkor tudjuk venni ha ismerjük a jelek <<font color="#ff0000"><b> jelentését</b>
+
+ </body>
