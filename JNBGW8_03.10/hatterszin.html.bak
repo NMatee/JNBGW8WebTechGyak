@@ -26,6 +26,38 @@ phpinfo();
  <div style="text-align:justify; width:400px">
  <font style="color:black; font-size:14pt">
  Az információkat jelek segítségével rögzítjük. A jelek nagyon sokfélék lehetnek. Vannak olyan egyszerű jelek, amit majdnem mindenki megért, pl:integetés búcsúzáskor. Vannak olyan jelek is amit csak az emberek egy csoportja ért meg. Ilyen jelekből állnak a titkosítások. <font size="3">(Morze, jelzőtáblák jelnyelv.)</font>.<br>
- A jelekkel rögzített információkat csak akkor értjük, csak akkor tudjuk venni ha ismerjük a jelek <<font color="#ff0000"><b> jelentését</b>
+ A jelekkel rögzített információkat csak akkor értjük, csak akkor tudjuk venni ha ismerjük a jelek <font color="#ff0000"><b> jelentését</b>
 
  </body>
+
+ <body>
+
+  <font size="5">Képek beillesztése<br><br>
+
+<strong>Képek beillesztése és formázása</strong>
+
+</font>
+
+<br><br>
+
+<font color="red">
+
+<img src= kepek/gyümölcs.jpg alt=kepek/gyümölcs.jpg align="left" width= "300" height="110" border="2" color="red">
+
+</font>
+
+
+<div style="text-align:justify; width:600px">
+
+Ez egy szöveg, amit arra használunk, hogy a kép körül<br>jelenjen majd meg. Ha sikerül, akkor a kép körül lesz<br>folytatva a szöveggel (legalábbis a kép két oldala). Így<br>
+már sokkal szebben be tudunk illeszteni képeket a<br><br>
+weblapunkra!
+
+</div>
+
+br><br>
+
+<img src= kepek/iit.jpg alt=kepek/iit.jpg width="400" height="300">
+
+</body>
+</html>
