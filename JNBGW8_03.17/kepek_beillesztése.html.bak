@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Képek beillesztése és formázása</title>
+
+ </head>
+ <h2>Képek beillesztése és formázása</h2>
+
+ <body>
+  
+
+  <div style="text-align:justify; width:400px">
+
+  <img src="kepek/gyümölcs.jpg" width="100" alt="Ezen a képen gyímőcsök vannak" style="border:2px red solid; fleat:left">
+  Ez egy szöveg, amit arra használunk, hogy a kép körül jelenjen majd meg. Ha sikerül, akkor a kép körül lesz folyatva a szöveggel (legalábbis a kép két oldala). Így már sokkal szebben be tudunk illeszteni képeket a weblapunkra!
+ </body>
+</html>
