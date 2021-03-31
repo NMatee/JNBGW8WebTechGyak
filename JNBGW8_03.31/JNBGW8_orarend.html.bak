@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <title>Táblázat készítése, formázása</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+
+  <font style="font-family:calibri"><h2>Táblázat készítése, formázása</h2></font>
+  <!--<table border="1" cellspacing="0" style="table-layout:fixed; font-family:calibri; font-size:12pt; color:black; font-weight:bold"> -->
+
+<table border="1" cellspacing="0" style="table-layout:fixed; font-family:calibri; font-size:12pt; color:black; font-weight:bold; background: #ffffcc">
+
+<!--A <caption> tag segítségével a táblázatnak címet adhatunk. -->
+<caption><h2>Órarendem</h2></caption>
+<!--A sorok és oszlopok fejléceit egyenként a <th>.....</th> páros címkével adhatjuk meg -->
+
+<tr style="sont-size:14pt; background: #c0c0c0">
+	<th> <em>Időpont</em> </th>
+	<th> <em>Hétfő</em> </th>
+	<th> <em>Kedd</em> </th>
+	<th> <em>Szerda</em> </th>
+	<th> <em>Csütörtök</em> </th>
+	<th> <em>Péntek</em> </th>
+</tr>
+
+<tr style="height:50px; background: #ff6666">
+	<td style="width:100px; text-align:center; border:1px black solid">8-10</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Termelő Rendszerek</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Villamos védelmek és automatikák</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Web technológiák</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+</tr>
+
+<tr style="height:50px; background: #ff6666">
+	<td style="width:100px; text-align:center; border:1px black solid">10-12</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Villamos védelmek és automatikák</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Web technológiák</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+</tr>
+
+<tr style="height:50px; background: #ff6666">
+	<td style="width:100px; text-align:center; border:1px black solid">12-14</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Bevezetés az autóelektronikába</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+</tr>
+
+<tr style="height:50px; background: #ff6666">
+	<td style="width:100px; text-align:center; border:1px black solid">14-16</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Angol 1</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Vezetés szervezés</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Angol 1</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+</tr>
+
+<tr style="height:50px; background: #ff6666">
+	<td style="width:100px; text-align:center; border:1px black solid">16-18</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Bevezetés az autóelektronikába</td>
+	<td style="width:100px; text-align:center; border:1px black solid">Hálózattervezés</td>
+	<td style="width:100px; text-align:center; border:1px black solid">-</td>
+</tr>
+
+
+	</table>
+  
+ </body>
+
+</html>
