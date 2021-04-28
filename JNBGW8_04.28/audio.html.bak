@@ -1,0 +1,71 @@
+<<!DOCTYPE html>
+<html lang="hu">
+<head>
+		<title>Űrlap</title>
+		<meta charset="UTF-8">
+		<style>
+			article, section, aside, nav, header, footer {
+				display: block;
+			}
+			.fejlec {
+				font-size: 18pt;
+				font-family: Helvetica;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+
+			.urlap{
+				padding: 30px;
+				font-size: 12pt;
+				font-family: Helvetica;
+				background: #dfe3ea;
+				width: 500px;
+				height: 300px;
+				border-radius: 10px;
+				box-shadow: 5px 5px 10px #888888;
+			}
+
+			.lablec{
+				width: 560px;
+				font-size: 10px;
+				margin-top: 40px
+				border-top: 3px #888888 double;
+				padding-top: 30px;
+				text-align: right;
+				font-family: Helvetica;
+			}
+
+		</style>
+	</head>
+	<header id="fejlec" class="fejlec">
+			Audió (zene hang) lejátszása
+	</header>
+
+	<section id="zene" controls style="width:800px">
+	<source src="jazzy.mp3" type="audio/mpeg" />
+	A böngésződ nem támogatja a HTML audio lejátszását.
+	</audio>
+
+
+
+	<script>
+var zenem = document.getElementById("zene");
+var effektem = document.getElementById("effekt");
+
+
+
+zenem.onended = function() {
+alert("VÉGE");
+};
+
+function playPause() {
+if (zenem.paused)
+zenem.play();
+else
+zenem.pause();
+}
+
+
+
+</script>

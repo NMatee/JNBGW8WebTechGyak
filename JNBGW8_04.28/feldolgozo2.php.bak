@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <title>Ürlap vezérlése új elemekkel </title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<font style="font-size:18pt">
+
+<h2>Ürlap vezérlése új elemekkel </h2>
+
+<?php
+print ("Név: " . $_GET['nev'] . "<br>");
+print ("PIN kód: " . $_GET['kod'] . "<br>");
+
+?>
+
+
+
+<a href="urlap3.html">vissza az ürlapra...</a>
+</font>
+</body>
+</html>
